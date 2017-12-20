@@ -1,12 +1,12 @@
-#include "arith.h"
-#include "flint.h"
-#include "fmpq.h"
-#include "fmpq_mat.h"
-#include "fmpz.h"
-#include "fmpz_factor.h"
-#include "fmpz_mat.h"
-#include "fmpz_poly.h"
-#include "fmpz_vec.h"
+#include "flint/arith.h"
+#include "flint/flint.h"
+#include "flint/fmpq.h"
+#include "flint/fmpq_mat.h"
+#include "flint/fmpz.h"
+#include "flint/fmpz_factor.h"
+#include "flint/fmpz_mat.h"
+#include "flint/fmpz_poly.h"
+#include "flint/fmpz_vec.h"
 
 void wrapped_fmpz_clear(fmpz_t f) { fmpz_clear(f); }
 
